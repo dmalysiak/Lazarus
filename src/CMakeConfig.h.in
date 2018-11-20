@@ -1,0 +1,18 @@
+#define Lazarus_VERSION_MAJOR @Lazarus_VERSION_MAJOR@
+#define Lazarus_VERSION_MINOR @Lazarus_VERSION_MINOR@
+
+#define Lazarus_Install_Path "@Lazarus_INSTALL_PATH@"
+
+#define USETOMCRYPT
+
+//indicates if ZLIB support is available, values are either "USEZLIB" or "NOZLIB" 
+#define @CMAKE_ZLIB_TYPE@
+
+//indicates if CPU power support is available, values are either "USECPUPOWER" or "NOCPUPOWER" 
+#define @CMAKE_CPUPOWER_TYPE@
+
+//indicates if lmsensors support is available, values are either "USEHWSENSORS" or "NOHWSENSORS" 
+#define @CMAKE_LMSENSORS_TYPE@
+
+//indicates if CURL support is available, values are either "USECURL" or "NOCURL" 
+#define @CMAKE_CURL_TYPE@
